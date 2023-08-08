@@ -1,10 +1,10 @@
-# Unpaired Multi-domain Attribute Translation of 3D Facial Shapes with a Square and Symmetric Geometric Map (ICCV2023)
+# Unpaired Multi-domain Attribute Translation of 3D Facial Shapes with a Square and Symmetric Geometric Map
 
 by Zhenfeng Fan, Zhiheng Zhang, Shuang Yang, Chongyang Zhong and Shihong Xia
 
 ## Introduction
 
-This repository is built for the official implementation of the paper "Unpaired Multi-domain Attribute Translation of 3D Facial Shapes with a Square and Symmetric Geometric Map" published at *International Conference on Computer Vision* in October, 2023.
+This repository is built for the official implementation of the paper "Unpaired Multi-domain Attribute Translation of 3D Facial Shapes with a Square and Symmetric Geometric Map".
 To view the full version of this paper, please visit the website, which provides the online version.
 
 ## Abstract
