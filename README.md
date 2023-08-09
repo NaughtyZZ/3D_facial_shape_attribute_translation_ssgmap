@@ -1,6 +1,6 @@
 # Unpaired Multi-domain Attribute Translation of 3D Facial Shapes with a Square and Symmetric Geometric Map
 
-by Zhenfeng Fan, Zhiheng Zhang, Shuang Yang, Chongyang Zhong and Shihong Xia
+by Zhenfeng Fan, Zhiheng Zhang, Shuang Yang, Chongyang Zhong, Min Cao and Shihong Xia
 
 ## Introduction
 
