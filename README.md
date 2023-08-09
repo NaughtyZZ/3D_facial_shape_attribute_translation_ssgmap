@@ -15,15 +15,20 @@ While impressive progress has recently been made in image-oriented facial attrib
   
 
 ```
-  
+python main.py
 ```
 ### Testing
   
 ```
-  
+python demo.py
 ```
+Some examples for attribute translation of 3D facial shape is shown as follows.
 
-#### Dependencies and Requirements
+<img src="figures\figure_show.png" alt="show" style="zoom: 67%;" />
+<img src="figures\figure_multi_domain_a.png" alt="multi_domain_a" style="zoom: 67%;" />
+<img src="figures\gender_age_sup.png" alt="gender_age_sup" style="zoom: 67%;" />
+
+### Dependencies and Requirements
 
 - [x] Python 3.8.17
 - [x] PyTorch  2.0.1 && torchvision 0.15.2
@@ -31,22 +36,27 @@ While impressive progress has recently been made in image-oriented facial attrib
 - [x] h5py
 - [x] tensorboard and tensorboardx
 
+### Acknowledgement
+
+Our code is partially borrowed from [StarGAN](https://github.com/yunjey/stargan).
+
+
 
 ## Sponsorships
 
-
+This work is supported in part by the National Key Research and Development Program of China (No. 2022YFF0902302), the National Science Foundation of China (No. 62106250), and China Postdoctoral Science Foundation (No. 2021M703272).
 
 ## Bibtex
 If you find this project helpful to your research, please consider citing:
 
 ```
-@article{fan2023towards,
-  title={Towards Fine-Grained Optimal 3D Face Dense Registration: An Iterative Dividing and Diffusing Method},
-  author={Fan, Zhenfeng and Peng, Silong and Xia, Shihong},
-  journal={International Journal of Computer Vision},
+@article{fan2023unpaired,
+  title={Unpaired Multi-domain Attribute Translation of 3D Facial Shapes with a Square and Symmetric Geometric Map},
+  author={Fan, Zhenfeng},
+  journal={--},
   pages={1--21},
   month = {June},
   year={2023},
-  publisher={Springer}
+  publisher={IEEE}
 }
 ```
