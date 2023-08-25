@@ -12,23 +12,32 @@ While impressive progress has recently been made in image-oriented facial attrib
 ## Usage
 
 ### Training
-  
+We provide the training code for the model. Since we are not authorized for the facescape dataset, we suggest that the users can download it themselves at [FaceScape Project](https://github.com/zhuhao-nju/facescape) and then formalize the data with our provided gmap at  `` .\template\ `` referring to our paper. Then, the user may run the training code: 
 
 ```
 python main.py
 ```
+
 ### Testing
-  
+We provide a testing demo as well as a trained model. The results in *.ply* file format can be viewed by the opensource [meshlab software](https://www.meshlab.net/)  at the folder `` .\test_data\ ``. The user can run by
+
 ```
 python demo.py
 ```
-Some examples for attribute translation of 3D facial shape is shown as follows.
+A raw scaning face requires to be registed to the provided template first before applying the trained model to it. The user may refer to our another publication [*"Towards Fine-Grained Optimal 3D Face Dense Registration: An Iterative Dividing and Diffusing Method (IJCV2023)"*](https://doi.org/10.1007/s11263-023-01825-7) for the registration. All the codes for registration are at [https://github.com/NaughtyZZ/3D_face_dense_registration](https://github.com/NaughtyZZ/3D_face_dense_registration).
+## Remarks
 
+- [x] The Bi-directional sampling process between a 3D facial shape and its representation on a Gmap is show as follows. 
+<img src="figures\Bi-direction sampling.png" alt="show" style="zoom: 67%;" />
+
+- [x] The 3D template and the gmap is placed at the fold  `` .\template\ ``.
+
+- [x] Some examples for attribute translation of 3D facial shape is shown as follows.
 <img src="figures\figure_show.png" alt="show" style="zoom: 67%;" />
 <img src="figures\figure_multi_domain_a.png" alt="multi_domain_a" style="zoom: 67%;" />
 <img src="figures\gender_age_sup.png" alt="gender_age_sup" style="zoom: 67%;" />
 
-### Dependencies and Requirements
+## Dependencies and Requirements
 
 - [x] Python 3.8.17
 - [x] PyTorch  2.0.1 && torchvision 0.15.2
@@ -36,15 +45,15 @@ Some examples for attribute translation of 3D facial shape is shown as follows.
 - [x] h5py
 - [x] tensorboard and tensorboardx
 
-### Acknowledgement
+## Acknowledgement
 
 Our code is partially borrowed from [StarGAN](https://github.com/yunjey/stargan).
 
-
+Our training code requires the [Facescape dataset](https://github.com/zhuhao-nju/facescape).
 
 ## Sponsorships
 
-This work is supported in part by the National Key Research and Development Program of China (No. 2022YFF0902302), the National Science Foundation of China (No. 62106250), and China Postdoctoral Science Foundation (No. 2021M703272).
+This work is supported in part by the National Key Research and Development Program of China (No. 2022YFF0902302), the National Science Foundation of China (No. 62106250 and No. 62002252), and China Postdoctoral Science Foundation (No. 2021M703272).
 
 ## Bibtex
 If you find this project helpful to your research, please consider citing:
