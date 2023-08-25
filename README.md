@@ -27,7 +27,7 @@ python demo.py
 A raw scaning face requires to be registed to the provided template first before applying the trained model to it. The user may refer to our another publication [*"Towards Fine-Grained Optimal 3D Face Dense Registration: An Iterative Dividing and Diffusing Method (IJCV2023)"*](https://doi.org/10.1007/s11263-023-01825-7) for the registration. All the codes for registration are at [https://github.com/NaughtyZZ/3D_face_dense_registration](https://github.com/NaughtyZZ/3D_face_dense_registration).
 ## Remarks
 
-- [x] The Bi-directional sampling process between a 3D facial shape and its representation on a Gmap is show as follows. 
+- [x] The Bi-directional sampling process between a 3D facial shape and its representation on a Gmap is shown as follows. 
 <img src="figures\Bi-direction sampling.png" alt="show" style="zoom: 67%;" />
 
 - [x] The 3D template and the gmap is placed at the fold  `` .\template\ ``.
@@ -61,10 +61,8 @@ If you find this project helpful to your research, please consider citing:
 ```
 @article{fan2023unpaired,
   title={Unpaired Multi-domain Attribute Translation of 3D Facial Shapes with a Square and Symmetric Geometric Map},
-  author={Fan, Zhenfeng},
-  journal={--},
-  pages={1--21},
-  month = {June},
+  author={Fan, Zhenfeng and Zhang, Zhiheng and Yang, Shuang and Zhong, Chongyang and Cao, Min and Xia, Shihong},
+  journal={arXiv preprint arXiv:----.----},
   year={2023},
   publisher={IEEE}
 }
