@@ -62,7 +62,8 @@ If you find this project helpful to your research, please consider citing:
 @article{fan2023unpaired,
   title={Unpaired Multi-domain Attribute Translation of 3D Facial Shapes with a Square and Symmetric Geometric Map},
   author={Fan, Zhenfeng and Zhang, Zhiheng and Yang, Shuang and Zhong, Chongyang and Cao, Min and Xia, Shihong},
-  journal={arXiv preprint arXiv:2308.13245},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={20828--20838},
   year={2023}
 }
 ```
